@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentes Plurais | Educação Adaptada e Inclusiva</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">Mentes<span>Plurais</span></div>
+            <nav class="accessibility-nav" aria-label="Controles de Acessibilidade">
+                <button id="btn-decrease" class="btn-acc" aria-label="Diminuir texto">A-</button>
+                <button id="btn-increase" class="btn-acc" aria-label="Aumentar texto">A+</button>
+                <button id="btn-contrast" class="btn-acc" aria-label="Alternar alto contraste">
+                    <span class="icon">◑</span> Alto Contraste
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="badge">Educação Neuroinclusiva</span>
+                    <h1>O aprendizado ideal para o ritmo de cada mente.</h1>
+                    <p>Uma plataforma onde professores recomendam ou criam atividades personalizadas, e os alunos escolhem sua jornada com base em suas características de TDAH, Autismo, Dislexia e mais.</p>
+                    <div class="hero-actions">
+                        <a href="#cadastro" class="btn btn-primary">Sou Professor</a>
+                        <a href="#cadastro" class="btn btn-secondary">Sou Aluno</a>
+                    </div>
+                </div>
+                <div class="hero-image-placeholder">
+                    <div class="interactive-preview">
+                        <div class="preview-tag">Ambiente do Aluno</div>
+                        <p class="preview-title">Selecione seu perfil de foco:</p>
+                        <div class="preview-options">
+                            <span class="opt-card active">TDAH (Visual & Dinâmico)</span>
+                            <span class="opt-card">Autismo (Rotina & Foco)</span>
+                            <span class="opt-card">Dislexia (Texto Limpo & Áudio)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features" id="como-funciona">
+            <div class="container">
+                <h2 class="section-title">Como transformamos a experiência pedagógica</h2>
+                <div class="grid-3">
+                    <div class="card">
+                        <div class="card-icon">🎯</div>
+                        <h3>Atividades Sob Medida</h3>
+                        <p>Acesso imediato a um banco de dados de atividades estruturadas pedagogicamente para diferentes perfis neurodivergentes.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🛠️</div>
+                        <h3>Estúdio do Professor</h3>
+                        <p>Ferramentas simples e intuitivas para criar tarefas personalizadas, adaptando fontes, cores, tempos e estímulos visuais.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🧬</div>
+                        <h3>Painel Adaptativo</h3>
+                        <p>O aluno indica sua neurodivergência e a interface se reconfigura automaticamente para reduzir a sobrecarga cognitiva.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title">Histórias reais de quem transforma a educação</h2>
+                <div id="carousel-container" class="carousel-wrapper">
+                    </div>
+                <div class="carousel-controls">
+                    <button id="prev-testimonial" class="btn-arrow" aria-label="Depoimento anterior">←</button>
+                    <button id="next-testimonial" class="btn-arrow" aria-label="Próximo depoimento">→</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq" id="perguntas-frequentes">
+            <div class="container">
+                <h2 class="section-title">Perguntas Frequentes</h2>
+                <div id="accordion-container" class="accordion-wrapper">
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Mentes Plurais. Todos os direitos reservados. Promovendo uma educação verdadeiramente acessível.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
